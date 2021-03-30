@@ -5,14 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     
-    <p id="demo">Testfeld</p>
+    <p id="demo" class="elementdemo">Testfeld</p>
+    <p id="demo2" class="elementdemo" onmouseover="this.style.backgroundColor='red'"onmouseout="this.style.backgroundColor='blue'">Testfeld2</p>
+
+    <input class="elementdemo" id="userinput"></input>
+
+
+
+    <button id="bread">read string</button>
+    <button id="barray">arrayize</button>
+    <button id="balert">alert string</button>
+
+
     <button id="boff">go away</button>
     <button id="bon">come back</button>
-    
+    <button id="bchange1">change1</button>
+    <button id="bchange2">change2</button>
+    <button id="bwrite">write</button>
+
+    <button id="btime">wieviel uhr?</button>
+
+    <script src="index.js"></script>
 </body>
 
-</html> 
+</html>
