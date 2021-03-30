@@ -19,4 +19,4 @@ function show(){
 
 bon.addEventListener ('click',show(1),true)
 
-boff.addEventListener ('click',hide,true)  
+boff.addEventListener ('click',hide,true)
